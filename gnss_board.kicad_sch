@@ -9142,12 +9142,6 @@
 		(uuid "7b22caa6-db92-4956-abbb-88fc6cd380fd")
 	)
 	(junction
-		(at 69.85 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8be504d2-83ce-430c-8db4-0a48fb686816")
-	)
-	(junction
 		(at 100.33 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9170,6 +9164,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90c6f940-12e7-4106-a467-95c7c5a41eb5")
+	)
+	(junction
+		(at 71.12 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90eaa31f-5138-4fab-abe4-c635420ea748")
+	)
+	(junction
+		(at 71.12 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9357f449-a279-4774-b8aa-ad71596eef01")
 	)
 	(junction
 		(at 335.28 30.48)
@@ -9242,12 +9248,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9df1a80-86ff-444d-9c56-49e7c506849b")
-	)
-	(junction
-		(at 69.85 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cece96c6-fa56-4bb3-bdd5-2d5268f2a7a0")
 	)
 	(junction
 		(at 257.81 45.72)
@@ -9549,7 +9549,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 146.05) (xy 69.85 146.05)
+			(xy 55.88 146.05) (xy 71.12 146.05)
 		)
 		(stroke
 			(width 0)
@@ -9579,7 +9579,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 125.73) (xy 69.85 125.73)
+			(xy 67.31 125.73) (xy 71.12 125.73)
 		)
 		(stroke
 			(width 0)
@@ -9649,7 +9649,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 125.73) (xy 69.85 130.81)
+			(xy 71.12 125.73) (xy 71.12 130.81)
 		)
 		(stroke
 			(width 0)
@@ -9759,7 +9759,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 130.81) (xy 69.85 146.05)
+			(xy 71.12 130.81) (xy 71.12 146.05)
 		)
 		(stroke
 			(width 0)
@@ -9976,16 +9976,6 @@
 			(type default)
 		)
 		(uuid "4618d8f6-7936-4dd0-abbb-970dc0d3f486")
-	)
-	(wire
-		(pts
-			(xy 69.85 146.05) (xy 76.2 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "462f2fbc-7035-4952-8e9b-6c788370ab12")
 	)
 	(wire
 		(pts
@@ -11779,7 +11769,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 130.81) (xy 69.85 130.81)
+			(xy 67.31 130.81) (xy 71.12 130.81)
 		)
 		(stroke
 			(width 0)
@@ -11956,6 +11946,16 @@
 			(type default)
 		)
 		(uuid "f0e695e2-1736-4fee-843b-b273fff60f91")
+	)
+	(wire
+		(pts
+			(xy 71.12 146.05) (xy 76.2 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f268e5f9-8c14-4817-bf7f-8951a2e55ed3")
 	)
 	(wire
 		(pts
@@ -13465,11 +13465,11 @@
 			(at 63.5 125.73 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 63.5 127.508 90)
 			(effects
 				(font
@@ -13494,6 +13494,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Info" "1%/R0805"
+			(at 68.326 124.968 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
 			)
 		)
 		(pin "2"
@@ -15115,15 +15123,15 @@
 				)
 			)
 		)
-		(property "Value" "4.42K"
+		(property "Value" "180K"
 			(at 63.5 130.81 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 63.5 132.588 90)
 			(effects
 				(font
@@ -15148,6 +15156,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Info" "1%/R0805"
+			(at 68.326 130.048 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
 			)
 		)
 		(pin "2"
@@ -17996,7 +18012,7 @@
 			(at 63.5 128.27 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 			)
 		)
@@ -18025,6 +18041,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Info" "1%/R0805"
+			(at 68.326 127.508 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
 			)
 		)
 		(pin "2"
