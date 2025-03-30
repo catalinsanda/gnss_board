@@ -18717,7 +18717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM10B-SRSS-TB_1x10-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-1071_1x10-1MP_P1.25mm_Vertical"
 			(at 20.32 52.07 0)
 			(effects
 				(font
