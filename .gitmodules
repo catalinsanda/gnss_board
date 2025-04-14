@@ -1,0 +1,3 @@
+[submodule "sparkfun_resources"]
+	path = sparkfun_resources
+	url = https://github.com/sparkfun/SparkFun-KiCad-Libraries.git
