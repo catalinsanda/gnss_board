@@ -225,7 +225,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|927100|1282700|0e47dd1a-2ef7-434d-8ab0-3e403d7547df|1524db60-c2d7-4b8c-aa24-f4b598aa41d4|/739c1072-5947-4250-aeee-c1f84534a2f5|/739c1072-5947-4250-aeee-c1f84534a2f5|/739c1072-5947-4250-aeee-c1f84534a2f5",
+        "Return pin has to be put to ground"
+      ]
+    ],
     "meta": {
       "version": 0
     },
