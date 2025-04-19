@@ -16296,10 +16296,6 @@
 		(uuid "69a423fd-c002-4665-89e6-a501443bddf0")
 	)
 	(no_connect
-		(at 341.63 234.95)
-		(uuid "6aa0b103-02ba-4711-8de1-74d366b3cca4")
-	)
-	(no_connect
 		(at 365.76 111.76)
 		(uuid "6ca8904f-c37c-492d-ad9c-90fdfea368c4")
 	)
@@ -16322,10 +16318,6 @@
 	(no_connect
 		(at 264.16 205.74)
 		(uuid "8198e0a7-e9e4-414b-8746-0bd4bd6753ec")
-	)
-	(no_connect
-		(at 344.17 234.95)
-		(uuid "8560ada6-0942-486e-8bba-a10497867157")
 	)
 	(no_connect
 		(at 233.68 190.5)
@@ -17551,6 +17543,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 234.95) (xy 341.63 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49756ae5-55e1-4a6d-9de2-7384d96ac8a5")
+	)
+	(wire
+		(pts
 			(xy 339.09 232.41) (xy 339.09 234.95)
 		)
 		(stroke
@@ -17708,6 +17710,16 @@
 			(type default)
 		)
 		(uuid "510f2e92-790c-4abd-9610-35537a1b84ea")
+	)
+	(wire
+		(pts
+			(xy 347.98 234.95) (xy 347.98 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5158ec37-8533-4e5d-8aec-b4174c67ba3b")
 	)
 	(wire
 		(pts
@@ -18048,6 +18060,16 @@
 			(type default)
 		)
 		(uuid "61b59f8b-7cf5-4dbe-ade2-7dce741ce072")
+	)
+	(wire
+		(pts
+			(xy 349.25 233.68) (xy 349.25 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62003590-8832-4090-8e83-0e51e3502489")
 	)
 	(wire
 		(pts
@@ -19291,6 +19313,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 234.95) (xy 353.06 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae730a35-7051-483c-9891-0c5897c196b7")
+	)
+	(wire
+		(pts
 			(xy 248.92 106.68) (xy 252.73 106.68)
 		)
 		(stroke
@@ -19428,6 +19460,16 @@
 			(type default)
 		)
 		(uuid "b6ac922e-ae54-4ec9-b65f-5d70055a8bd8")
+	)
+	(wire
+		(pts
+			(xy 344.17 234.95) (xy 347.98 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71445db-8119-4ae7-a974-c4ee21c18052")
 	)
 	(wire
 		(pts
@@ -19718,6 +19760,16 @@
 			(type default)
 		)
 		(uuid "c738584b-e8e7-416b-b996-81c75cc018f6")
+	)
+	(wire
+		(pts
+			(xy 347.98 237.49) (xy 353.06 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c793e9fb-e04b-46a7-91bc-419171fa6cdb")
 	)
 	(wire
 		(pts
@@ -20741,6 +20793,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 233.68) (xy 349.25 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbceff5c-4b98-43f6-9970-8b0e108bb45b")
+	)
+	(wire
+		(pts
 			(xy 109.22 226.06) (xy 121.92 226.06)
 		)
 		(stroke
@@ -20908,6 +20970,28 @@
 			(justify left bottom)
 		)
 		(uuid "f818ff2e-2ed6-4c3c-9920-9279d664e38c")
+	)
+	(global_label "ESP_RXD0"
+		(shape input)
+		(at 353.06 234.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00979670-6fcf-47f6-b92d-58374c440c8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 365.6003 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "GNSS_RXD2"
 		(shape input)
@@ -21279,6 +21363,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESP_TXD0"
+		(shape input)
+		(at 353.06 237.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a0ef0bb-1ce3-419c-8d04-837a292f1174")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 365.2979 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -30403,7 +30509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT-353"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering"
 			(at 339.09 248.92 0)
 			(effects
 				(font
@@ -30423,15 +30529,6 @@
 		)
 		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 3.3V, Common Anode, SOT-353"
 			(at 339.09 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "DIO-19494"
-			(at 339.09 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
