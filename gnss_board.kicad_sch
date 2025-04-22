@@ -15597,6 +15597,12 @@
 		(uuid "371f4e00-3876-44cd-a8e5-15496df5e936")
 	)
 	(junction
+		(at 92.71 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a4dffc9-22fd-4af2-be39-7e5831cdf7d3")
+	)
+	(junction
 		(at 339.09 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15901,12 +15907,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cef941cb-eab3-470e-83d9-6860261747ee")
-	)
-	(junction
-		(at 92.71 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cefebf2c-841d-42ec-9e99-d2f238d0b8b3")
 	)
 	(junction
 		(at 199.39 60.96)
@@ -16798,16 +16798,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 120.65) (xy 96.52 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "249bb442-a4ac-409a-b86b-91b92671dfec")
-	)
-	(wire
-		(pts
 			(xy 320.04 91.44) (xy 325.12 91.44)
 		)
 		(stroke
@@ -16835,6 +16825,16 @@
 			(type default)
 		)
 		(uuid "25de6138-630c-41a1-909c-fc0bdbc49ed0")
+	)
+	(wire
+		(pts
+			(xy 92.71 120.65) (xy 96.52 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "265edcc1-9af4-4811-b40a-5b4daf98c5e9")
 	)
 	(wire
 		(pts
@@ -28394,7 +28394,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS Board:SOIC127P599X175-8N"
+		(property "Footprint" "gnss_board:SOIC127P599X175-8N"
 			(at 74.93 125.73 0)
 			(effects
 				(font
@@ -31262,7 +31262,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 100.33 122.428 90)
 			(effects
 				(font
@@ -31555,7 +31555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-WROOM-32D"
+		(property "Footprint" "RF_Module:ESP32-WROOM-32E"
 			(at 110.49 260.35 0)
 			(effects
 				(font
